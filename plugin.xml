@@ -1,0 +1,22 @@
+<plugin>
+    <class>vn.hoinx.experience.DvgAutoPortalPlugin</class>
+    <name>Autoportal</name>
+    <description>DVG AutoPortal Plugin</description>
+    <author>DVG-AutoPortal-hoinx</author>
+    <version>${project.version}</version>
+    <date>08/07/2019</date>
+    <url>https://dev.tiki.org/OpenFire</url>
+    <minServerVersion>4.1.3</minServerVersion>
+    <licenseType>gpl</licenseType>
+    <databaseKey>dvg-autoportal</databaseKey>
+    <databaseVersion>0</databaseVersion>
+<!--    <adminconsole>-->
+<!--        <tab id="tab-server">-->
+<!--            <sidebar id="sidebar-server-settings">-->
+<!--                <item id="autoportal" name="AutoPortal" url="autoportal.jsp"-->
+<!--                      description="Click to manage the service that allows to configure the Openfire over a RESTFul API" />-->
+<!--            </sidebar>-->
+<!--        </tab>-->
+<!--    </adminconsole>-->
+
+</plugin>
