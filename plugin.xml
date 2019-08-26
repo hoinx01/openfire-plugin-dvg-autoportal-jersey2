@@ -1,5 +1,5 @@
 <plugin>
-    <class>vn.hoinx.experience.DvgAutoPortalPlugin</class>
+    <class>vn.dvg.autoportal.DvgAutoPortalPlugin</class>
     <name>Autoportal</name>
     <description>DVG AutoPortal Plugin</description>
     <author>DVG-AutoPortal-hoinx</author>

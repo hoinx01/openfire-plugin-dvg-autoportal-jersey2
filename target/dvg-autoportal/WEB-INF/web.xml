@@ -7,14 +7,14 @@
     <servlet>
         <servlet-name>ServletContainer</servlet-name>
 <!--        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>-->
-        <servlet-class>vn.hoinx.experience.RestApiServletContainer</servlet-class>
+        <servlet-class>vn.dvg.autoportal.restapi.RestApiServletContainer</servlet-class>
 <!--        <init-param>-->
 <!--            <param-name>jersey.config.server.provider.packages</param-name>-->
 <!--            <param-value>vn.hoinx.experience</param-value>-->
 <!--        </init-param>-->
 <!--        <init-param>-->
 <!--            <param-name>javax.ws.rs.Application</param-name>-->
-<!--            <param-value>vn.hoinx.experience.ApplicationConfig</param-value>-->
+<!--            <param-value>ApplicationConfig</param-value>-->
 <!--        </init-param>-->
 <!--        <load-on-startup>1</load-on-startup>-->
     </servlet>

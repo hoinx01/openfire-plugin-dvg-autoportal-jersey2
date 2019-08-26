@@ -11,6 +11,7 @@
         <openfire.version>4.3.0</openfire.version>
         <jersey2.version>2.29</jersey2.version>
         <jaxrs.version>2.1.1</jaxrs.version>
+        <jsonwebtoken.version>0.10.7</jsonwebtoken.version>
     </properties>
 
     <groupId>vn.hoinx.experience</groupId>
@@ -18,7 +19,7 @@
     <version>1.0</version>
     <name>dvg-autoportal</name>
     <description>Nguyễn Xuân Hồi</description>
-<!--    <packaging>war</packaging>-->
+    <packaging>war</packaging>
 
     <parent>
         <artifactId>plugins</artifactId>
@@ -47,6 +48,7 @@
     </pluginRepositories>
 
     <dependencies>
+
         <!-- JAX-RS -->
         <dependency>
             <groupId>javax.ws.rs</groupId>
@@ -103,7 +105,47 @@
             <scope>compile</scope>
         </dependency>
 
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+            <version>${jsonwebtoken.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <version>${jsonwebtoken.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <version>${jsonwebtoken.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.4.4.Final</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api -->
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.1-api</artifactId>
+            <version>1.0.2.Final</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.17</version>
+        </dependency>
+
+
     </dependencies>
+
     <build>
         <finalName>dvg-autoportal</finalName>
         <sourceDirectory>src/java</sourceDirectory>
@@ -130,17 +172,17 @@
                     </dependency>
                 </dependencies>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-war-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <archive>-->
-<!--                        <manifest>-->
-<!--                            <addClasspath>true</addClasspath>-->
-<!--                        </manifest>-->
-<!--                    </archive>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>

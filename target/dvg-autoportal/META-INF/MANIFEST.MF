@@ -1,5 +1,57 @@
 Manifest-Version: 1.0
 Built-By: Administrator
+Class-Path: javax.ws.rs-api-2.1.1.jar jersey-container-servlet-2.29.ja
+ r jersey-container-servlet-core-2.29.jar jersey-common-2.29.jar osgi-
+ resource-locator-1.0.3.jar jakarta.activation-1.2.1.jar jakarta.ws.rs
+ -api-2.1.5.jar jersey-server-2.29.jar jersey-media-jaxb-2.29.jar jaka
+ rta.annotation-api-1.3.4.jar jakarta.inject-2.5.0.jar validation-api-
+ 2.0.1.Final.jar jakarta.xml.bind-api-2.3.2.jar jakarta.activation-api
+ -1.2.1.jar jersey-client-2.29.jar jersey-hk2-2.29.jar hk2-locator-2.5
+ .0.jar aopalliance-repackaged-2.5.0.jar hk2-api-2.5.0.jar hk2-utils-2
+ .5.0.jar jersey-media-json-jackson-2.29.jar jersey-entity-filtering-2
+ .29.jar jackson-annotations-2.9.9.jar jackson-databind-2.9.9.jar jack
+ son-core-2.9.9.jar jackson-module-jaxb-annotations-2.9.9.jar lombok-1
+ .18.8.jar genson-0.99.jar javax.servlet-api-3.1.0.jar jjwt-api-0.10.7
+ .jar jjwt-impl-0.10.7.jar jjwt-jackson-0.10.7.jar hibernate-core-5.4.
+ 4.Final.jar jboss-logging-3.3.2.Final.jar javax.persistence-api-2.2.j
+ ar javassist-3.24.0-GA.jar byte-buddy-1.9.11.jar antlr-2.7.7.jar jbos
+ s-transaction-api_1.2_spec-1.1.1.Final.jar jandex-2.0.5.Final.jar cla
+ ssmate-1.3.4.jar javax.activation-api-1.2.0.jar dom4j-2.1.1.jar hiber
+ nate-commons-annotations-5.1.0.Final.jar jaxb-api-2.3.1.jar jaxb-runt
+ ime-2.3.1.jar txw2-2.3.1.jar istack-commons-runtime-3.0.7.jar stax-ex
+ -1.8.jar FastInfoset-1.2.15.jar hibernate-jpa-2.1-api-1.0.2.Final.jar
+  mysql-connector-java-8.0.17.jar protobuf-java-3.6.1.jar xmppserver-4
+ .3.0.jar i18n-4.3.0.jar tinder-1.3.0.jar jcip-annotations-1.0.jar con
+ currentlinkedhashmap-lru-1.0_jdk5.jar jaxen-1.1.6.jar xpp3-1.1.4c.jar
+  jetty-server-9.4.12.v20180830.jar jetty-http-9.4.12.v20180830.jar je
+ tty-io-9.4.12.v20180830.jar jetty-servlets-9.4.12.v20180830.jar jetty
+ -continuation-9.4.12.v20180830.jar jetty-util-9.4.12.v20180830.jar je
+ tty-webapp-9.4.12.v20180830.jar jetty-xml-9.4.12.v20180830.jar jetty-
+ servlet-9.4.12.v20180830.jar jetty-security-9.4.12.v20180830.jar jett
+ y-jmx-9.4.12.v20180830.jar jetty-plus-9.4.12.v20180830.jar jetty-jndi
+ -9.4.12.v20180830.jar jetty-annotations-9.4.12.v20180830.jar javax.an
+ notation-api-1.2.jar asm-6.2.jar asm-commons-6.2.jar asm-tree-6.2.jar
+  asm-analysis-6.2.jar websocket-server-9.4.12.v20180830.jar websocket
+ -common-9.4.12.v20180830.jar websocket-api-9.4.12.v20180830.jar webso
+ cket-client-9.4.12.v20180830.jar jetty-client-9.4.12.v20180830.jar we
+ bsocket-servlet-9.4.12.v20180830.jar apache-jsp-9.4.12.v20180830.jar 
+ jetty-schemas-3.1.jar apache-jsp-8.5.24.2.jar apache-el-8.5.24.2.jar 
+ ecj-3.12.3.jar taglibs-standard-impl-1.2.5.jar taglibs-standard-spec-
+ 1.2.5.jar mina-core-2.0.7.jar slf4j-api-1.6.6.jar mina-integration-jm
+ x-2.0.7.jar ognl-3.0.5.jar javassist-3.11.0.GA.jar mina-filter-ssl-1.
+ 1.7.jar mina-filter-compression-2.0.7.jar jzlib-1.1.1.jar mina-integr
+ ation-beans-2.0.7.jar mina-integration-ognl-2.0.7.jar javassist-3.7.g
+ a.jar bcpg-jdk15on-1.60.jar bcpkix-jdk15on-1.60.jar bcprov-jdk15on-1.
+ 60.jar log4j-slf4j-impl-2.11.1.jar log4j-api-2.11.1.jar log4j-core-2.
+ 11.1.jar jcl-over-slf4j-1.7.25.jar rome-1.11.1.jar rome-utils-1.11.1.
+ jar jdom2-2.0.6.jar mail-1.4.7.jar activation-1.1.jar jmdns-1.0.jar c
+ ommons-dbcp2-2.5.0.jar commons-pool2-2.6.0.jar httpclient-4.5.6.jar h
+ ttpcore-4.4.10.jar commons-logging-1.2.jar commons-lang3-3.8.1.jar co
+ mmons-text-1.6.jar commons-codec-1.11.jar shaj-0.5.jar libidn-1.28.ja
+ r ant-1.10.5.jar ant-launcher-1.10.5.jar jsmpp-2.3.6.jar sitemesh-2.4
+ .2.jar commons-fileupload-1.3.3.jar commons-io-2.6.jar dwr-3.0.2-RELE
+ ASE.jar hsqldb-2.4.1.jar postgresql-42.2.5.jar jtds-1.3.1.jar mssql-j
+ dbc-7.0.0.jre8.jar
 Created-By: IntelliJ IDEA
 Build-Jdk: 1.8.0_211
 
