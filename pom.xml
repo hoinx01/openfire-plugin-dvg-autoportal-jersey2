@@ -8,7 +8,7 @@
         <jackson.version>1.9.11</jackson.version>
         <!-- Consider moving to the org.glassfish.jersey set of artefacts -->
         <jersey.version>1.19.4</jersey.version>
-        <openfire.version>4.3.0</openfire.version>
+        <openfire.version>4.6.8</openfire.version>
         <jersey2.version>2.29</jersey2.version>
         <jaxrs.version>2.1.1</jaxrs.version>
         <jsonwebtoken.version>0.10.7</jsonwebtoken.version>
